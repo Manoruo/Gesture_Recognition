@@ -11,7 +11,7 @@ DATA_PATH = os.path.join('DATA')
 
 # Configurables
 TEST_SPLIT = 0.05 # The percent of data dedicated to testing 
-NUM_EPOCHS = 2000 # the number of epochs to train the model
+NUM_EPOCHS = 250 # the number of epochs to train the model
 NUM_EXAMPLES = 30 # the number of examples we collect for each action
 SEQUENCE_LENGTH = 30 # the number of frames for each action example 
 ACTIONS = np.array(['lift', 'land', 'follow']) # actions that we can detect 
